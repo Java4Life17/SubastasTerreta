@@ -1,0 +1,25 @@
+Nombre: Nvme_SSD
+Monedas: 10
+Items:
+  Item1:
+    Type: DIAMOND_SWORD
+    Amount: 1
+    Damage: 10
+    DisplayName: "&e&lESPADA DE DIAMANTE"
+    Lore:
+      - "Un lore simple"
+    Enchantments:
+      - "DURABILITY 1"
+      - "SMITE 5"
+    Price: 50
+  Item2:
+    Type: DIAMOND_SWORD
+    Amount: 1
+    Damage: 10
+    DisplayName: "&e&lESPADA DE DIAMANTE"
+    Lore:
+     - "Un lore simple"
+    Enchantments:
+     - "DURABILITY 1"
+     - "SMITE 5"
+      Price: 50

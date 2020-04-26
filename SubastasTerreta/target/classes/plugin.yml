@@ -1,0 +1,21 @@
+name: SubastasTerreta
+version: 1.0.0
+api-version: 1.13
+main: subastasterreta.subastasterreta.SubastasTerreta
+authors: [ProxyGaming17, Nvme_SSD]
+description: Este plugin es para el servidor LaTerreta que permite crear subastas con una moneda unica.
+commands:
+  AdminSubastas:
+    aliases:
+      - as
+      - adminsub
+      - adsub
+    description: Con este comando, un administrador podra obtener las monedas que quiera.
+  Subastas:
+    aliases:
+      - sub
+    description: Abre el menu principal de las subastas.
+permissions:
+  AdminSubasta.ObtenerMoneda:
+    description: Permiso para usar el comando /AdminSubastas
+    default: op

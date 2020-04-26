@@ -1,0 +1,24 @@
+# ------------------------------------------------------------------------
+# | Hola! En este archivo podras configurar la mayoria de las cosas que  |
+# | se me ocurrieron que pueden ser configurables. Te guiare por partes  |
+# | para que no te pierdas                                               |
+# ------------------------------------------------------------------------
+
+# Esta opcion 'broadcast' define si el servidor anunciara cuando un usuario agrego un nuevo
+# objeto a las subastas. Los valores son "true" o "false" y la parte 'mensaje' define el mensaje
+# que sera anunciado en el broadcast. Valores: %player%, %objeto%, %cantidad%, y %precio%
+broadcast: true
+Mensaje: "&a&lEl usuario %player% ah agregado el objeto %objeto% (x %cantidad%) con el nombre por %precio%
+monedas"
+
+# En esta seccion, tu podras banear algunos objetos que no quieres que se puedan vender en la tienda (Esta seccion no
+# puede estar vacia. Pon tansiquiera un valor! Los nombres puedes encontrarlos en el link
+# 'https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html'
+Objetos:
+  - 'IRON_DOOR'
+  - 'BEDROCK'
+#En esta seccion, tu podras banear algunas palabras que no quisieras que un objeto tenga al ser agregado a las subastas
+# Esta seccion tiene que tener minimo un valor! Te eh dejado un nombre te guie.
+Palabras:
+  - 'Verga'
+  - 'tonto'
